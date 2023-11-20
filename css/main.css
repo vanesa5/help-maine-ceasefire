@@ -94,7 +94,8 @@ header{
   color: red;
   text-align: center;
 
-  font-size: 2em;
+  font-size: 3em;
+  padding: 50px 0px;
 }
 
 .main{
@@ -108,7 +109,11 @@ header{
   display: flex;
   justify-content: center;
   text-align: center;  
-  width: 30%;
+  width: 45%;
+}
+
+.contact address{
+  font-style: normal;
 }
 
 h4{
@@ -119,10 +124,17 @@ h5{
   font-size: .85em;
 }
 
-.contact address{
-  font-style: none;
+.header-tools{
+  width: 100%;
+  text-align: center;
+  padding-bottom: 30px ;
+
+
 }
 
+.tools{
+  padding: 10px;
+}
 
 
 
@@ -214,8 +226,63 @@ h5{
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 768px) {
   /* Style adjustments for viewports that meet the condition */
+  header{
+    width: 100%;
+    color: red;
+    text-align: center;
+  
+    font-size: 3em;
+    padding: 50px 0px;
+  }
+  
+  .main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  
+  .contact {
+    border: red 2px solid;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    
+  }
+  
+  .contact address{
+    font-style: normal;
+  }
+  
+  h4{
+    font-size: 1.75em;
+  }
+  
+  h5{
+    font-size: .85em;
+  }
+  
+  .header-tools{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: row wrap;
+  }
+  
+  .tools{
+    max-width: 50%;
+    padding: 60px 50px;
+  }
+}
+
+
+@media only screen and (min-width: 1200px) {
+  /* Style adjustments for viewports that meet the condition */
+  .contact {
+    width: 30%;  
+    
+  }
 }
 
 @media print,
