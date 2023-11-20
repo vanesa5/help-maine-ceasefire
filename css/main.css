@@ -95,7 +95,7 @@ header{
   text-align: center;
 
   font-size: 3em;
-  text-decoration-color: 4px #999;
+  text-shadow: 1px 1px #814949;
   padding: 50px 0px;
 }
 
@@ -127,7 +127,12 @@ h5{
   font-size: 1em;
 }
 
-
+br {
+  display: block;
+  margin-bottom: 2px;
+  font-size:2px;
+  line-height: 2px;
+}
 
 .header-tools{
   width: 100%;
