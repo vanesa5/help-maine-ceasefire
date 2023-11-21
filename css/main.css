@@ -13,7 +13,6 @@
 
 html {
   font-family: Arial, Helvetica, sans-serif;
-
   color: #222;
   font-size: 1em;
   line-height: 1.4;
@@ -88,14 +87,20 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body{
+  background-image: url("/waving-flag.jpg");
+  background-size:210%;
+  background-position: center;
+
+}
+
 
 header{
   width: 100%;
   color: rgb(239, 19, 19);
   text-align: center;
-
   font-size: 3em;
-  text-shadow: 1px 1px #814949;
+  text-shadow: 1px 1px #1d1515;
   padding: 50px 0px;
 }
 
@@ -113,6 +118,10 @@ header{
   text-align: center;  
   width: 45%;
   padding: 5px;
+
+  background-color: #fff;
+  opacity: 0.8;
+
 }
 
 .contact address{
