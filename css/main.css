@@ -89,8 +89,9 @@ textarea {
    ========================================================================== */
 body{
   background-image: url("/waving-flag.jpg");
-  background-size:210%;
+  background-size:cover;
   background-position: center;
+  background-repeat: no-repeat;
 
 }
 
@@ -259,6 +260,10 @@ br {
 
 @media only screen and (min-width: 768px) {
   /* Style adjustments for viewports that meet the condition */
+body{
+  background-size: 210%;
+}
+
   header{
     width: 100%;
     text-align: center;
