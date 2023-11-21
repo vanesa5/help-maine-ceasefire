@@ -88,7 +88,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body{
-  background-image: url("/waving-flag.jpg");
+  background-image: url("../img/waving-flag.jpg");
   background-size:cover;
   background-position: center;
   background-repeat: no-repeat;
